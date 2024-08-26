@@ -1,0 +1,13 @@
+.ModalWrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+}

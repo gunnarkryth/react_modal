@@ -1,0 +1,27 @@
+.Modal {
+  position: relative;
+  border-radius: 1rem;
+  background-color: black;
+  padding: 1rem;
+  width: 50vw;
+  height: 50vh;
+  color: white;
+  button {
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    padding: 0;
+    &:hover {
+      scale: 1.5;
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+}
